@@ -1,0 +1,17 @@
+{
+  "name": "ts-sorter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tomekrychtyk/ts-sorter.git",
+  "author": "Tomek <tomek@rychtyk.pl>",
+  "license": "MIT",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.2",
+    "nodemon": "^2.0.18"
+  }
+}
